@@ -1,1 +1,1 @@
-# multinominal-logistc-regrassion
+# multinominal-logistc-regression
