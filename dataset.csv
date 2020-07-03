@@ -1,0 +1,47 @@
+Timestamp,Department,Doing Research,Interest in Programming,Interest in Data Base,Interest in Math/statistics,Interest in Networks,Interest in Cyber Security,Interest in Accounting,Bachelor Degree in,Job Title,Other Position in the faculty,Highest Qualification,Module
+5/25/2020 17:00:34,Computer Science,No,YES,YES,YES,No,No,No,Computer Science - Software Dev,Junior Lecturer,No,Honors Degree,Programming 1
+5/26/2020 13:44:55,Computer Science,YES,YES,YES,YES,YES,No,No,Computer Science,Senior Lecturer,No,Master,Artificial Inteligence
+5/26/2020 13:48:13,Computer Science,No,YES,YES,No,YES,No,No,Computer Science - Software Dev,Senior Lecturer,YES,Phd,Data Structure
+5/26/2020 13:49:37,Computer Science,YES,YES,No,No,No,No,No,Computer Science - Software Dev,Professor,No,Master,Data Mining
+5/26/2020 13:56:16,Informatics,YES,YES,YES,YES,YES,No,No,Informatics,Senior Lecturer,YES,Master,Database Fundamentals
+5/26/2020 13:58:42,Computer Science,No,YES,YES,No,YES,No,No,Computer Science - Software Dev,Junior Lecturer,YES,Master,Advanced Programming
+5/26/2020 13:58:46,Computer Science,YES,YES,YES,YES,YES,No,YES,Computer Science - Software Dev,Senior Lecturer,No,Master,Data Mining
+5/26/2020 13:59:07,Informatics,YES,No,YES,No,YES,No,YES,Computer Science,Lecturer,YES,Phd,Database Fundamentals
+5/26/2020 13:59:20,Computer Science,YES,No,YES,YES,YES,No,No,Computer Science - Network,Junior Lecturer,YES,Master,Database Fundamentals
+5/26/2020 14:05:11,Informatics,YES,YES,No,No,YES,No,No,Informatics,Junior Lecturer,No,Honors Degree,Intro to C Network
+5/26/2020 14:09:14,Computer Science,YES,YES,YES,No,YES,No,No,Computer Science - Software Dev,Senior Lecturer,YES,Master,Programming 2
+5/26/2020 14:12:46,Informatics,No,No,YES,No,YES,No,YES,Computer Science - Network,Senior Lecturer,No,Honors Degree,Database Fundamentals
+5/26/2020 14:14:00,Computer Science,YES,YES,YES,YES,YES,No,No,Computer Science - Software Dev,Lecturer,YES,Master,Data Mining
+5/26/2020 14:23:28,Informatics,No,YES,YES,No,YES,No,YES,Informatics,Professor,No,Honors Degree,Intro to C Network
+5/26/2020 14:27:45,Computer Science,YES,YES,YES,YES,YES,No,YES,Computer Science - Software Dev,Professor,YES,Phd,Artificial Inteligence
+5/26/2020 14:34:45,Informatics,YES,YES,YES,YES,YES,No,No,Informatics,Lecturer,No,Honors Degree,Web Dev Fundamentals
+5/26/2020 14:37:35,Computer Science,YES,YES,YES,YES,YES,No,YES,Computer Science,Junior Lecturer,No,Master,Programming 1
+5/26/2020 14:51:11,Informatics,YES,YES,No,YES,YES,No,YES,Informatics,Senior Lecturer,YES,Master,Intro to C Network
+5/26/2020 14:57:03,Computer Science,No,YES,YES,No,YES,YES,No,Cyber Security,Professor,No,Phd,Intro to C Network
+5/26/2020 14:58:23,Computer Science,No,YES,YES,No,YES,YES,No,Computer Science - Software Dev,Lecturer,No,Honors Degree,Intro to C Network
+5/26/2020 15:05:00,Computer Science,YES,YES,YES,No,YES,YES,No,Computer Science - Software Dev,Lecturer,No,Master,IT System Security
+5/26/2020 15:42:26,Computer Science,YES,YES,YES,YES,No,YES,YES,Cyber Security,Professor,No,Honors Degree,Data Mining
+5/26/2020 15:47:20,Computer Science,No,YES,YES,YES,YES,YES,No,Cyber Security,Junior Lecturer,No,Honors Degree,IT System Security
+5/26/2020 15:47:45,Informatics,YES,YES,No,YES,No,YES,No,Computer Science,Senior Lecturer,YES,Master,IT System Security
+5/26/2020 15:48:51,Computer Science,YES,YES,YES,No,No,YES,No,Informatics,Senior Lecturer,YES,Master,IT System Security
+5/26/2020 15:49:27,Computer Science,YES,No,No,YES,YES,No,No,Informatics,Lecturer,No,Master,Intro to C Network
+5/26/2020 15:49:49,Informatics,YES,YES,YES,YES,YES,YES,YES,Computer Science,Senior Lecturer,YES,Phd,IT System Security
+5/26/2020 15:50:52,Informatics,YES,No,No,No,YES,YES,YES,Computer Science - Network,Senior Lecturer,No,Master,IT System Security
+5/26/2020 16:20:53,Computer Science,YES,YES,YES,No,YES,No,No,Computer Science - Software Dev,Professor,No,Phd,Dara Structure
+5/26/2020 16:21:00,Computer Science,YES,YES,YES,No,YES,No,No,Computer Science - Software Dev,Professor,No,Phd,Data Mining
+5/26/2020 16:21:02,Computer Science,YES,YES,YES,No,YES,No,No,Computer Science - Software Dev,Professor,No,Phd,Database Fundamentals
+5/26/2020 16:51:28,Informatics,No,No,YES,No,YES,No,No,Informatics,Lecturer,YES,Master,Intro to C Network
+5/26/2020 16:20:53,Computer Science,YES,YES,YES,No,YES,No,No,Computer Science - Software Dev,Professor,No,Phd,Dara Structure
+5/26/2020 14:34:45,Informatics,YES,YES,YES,YES,YES,No,No,Informatics,Lecturer,No,Honors Degree,Web Dev Fundamentals
+5/26/2020 14:12:46,Informatics,No,No,YES,No,YES,No,YES,Computer Science - Network,Senior Lecturer,No,Honors Degree,Database Fundamentals
+5/26/2020 14:58:23,Computer Science,No,YES,YES,No,YES,YES,No,Computer Science - Software Dev,Lecturer,No,Honors Degree,Intro to C Network
+5/26/2020 16:20:53,Computer Science,YES,YES,YES,No,YES,No,No,Computer Science - Software Dev,Professor,No,Phd,Dara Structure
+5/26/2020 14:34:45,Informatics,YES,YES,YES,YES,YES,No,No,Informatics,Lecturer,No,Honors Degree,Web Dev Fundamentals
+5/26/2020 14:12:46,Informatics,No,No,YES,No,YES,No,YES,Computer Science - Network,Senior Lecturer,No,Honors Degree,Database Fundamentals
+5/26/2020 14:58:23,Computer Science,No,YES,YES,No,YES,YES,No,Computer Science - Software Dev,Lecturer,No,Honors Degree,Intro to C Network
+5/26/2020 14:34:45,Informatics,YES,YES,YES,YES,YES,No,No,Informatics,Lecturer,No,Honors Degree,Web Dev Fundamentals
+5/26/2020 14:37:35,Computer Science,YES,YES,YES,YES,YES,No,YES,Computer Science,Junior Lecturer,No,Master,Programming 1
+5/26/2020 13:44:55,Computer Science,YES,YES,YES,YES,YES,No,No,Computer Science,Senior Lecturer,No,Master,Artificial Inteligence
+5/26/2020 14:34:45,Informatics,YES,YES,YES,YES,YES,No,No,Informatics,Lecturer,No,Honors Degree,Web Dev Fundamentals
+5/26/2020 13:44:55,Computer Science,YES,YES,YES,YES,YES,No,No,Computer Science,Senior Lecturer,No,Master,Artificial Inteligence
+5/26/2020 14:27:45,Computer Science,YES,YES,YES,YES,YES,No,YES,Computer Science - Software Dev,Professor,YES,Phd,Artificial Inteligence
