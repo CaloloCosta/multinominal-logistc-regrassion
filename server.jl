@@ -16,7 +16,7 @@ end
 process(
     JuliaWebAPI.create_responder([
         (guess, true)
-    ], "tcp://127.0.0.1:9999", true, "")
+    ], "tcp://127.0.0.1:9000", true, "")
 )
 
 # on the julia repm
@@ -27,3 +27,33 @@ process(
 
 # #Start the HTTP server in current process (Ctrl+C to interrupt)
 # run_http(apiclnt, 8888)
+
+#using Mux
+
+
+# function withCors
+# @app test = (
+#   Mux.defaults,
+#   page(respond("<h1>Hello World!</h1>")),
+#   page("/user/:user", req -> "<h1>Hello, $(req[:params][:user])!</h1>"),
+#   Mux.notfound())
+
+# serve(test)
+
+
+#  Access-Control-Allow-Origin: *
+# function withCorsHeader(res)
+#     headers  = HttpCommon.headers()
+#     headers["Access-Control-Allow-Origin"] = "*"
+#     Dict(
+#       :headers => headers,
+#       :body=> res
+#     )
+#   end
+  
+#   @app service = (
+#     Mux.defaults,
+#     page("/data", req -> "Test passed!")
+#   )
+
+# serve(service)

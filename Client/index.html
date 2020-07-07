@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Predict</title>
+	<meta name="description" content="Simple draggable modal with pure Javascript, inspired by Google Modal.">
+	<meta name="author" content="Marcelo Dolce" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium">
+	<link rel="stylesheet" href="stylesheets/demo.css">
+	<link rel="stylesheet" href="stylesheets/grid.css">
+	<link rel="stylesheet" href="stylesheets/form.css">
+	<link rel="stylesheet" href="stylesheets/submit.css">
+</head>
+<body class="">
+		<div id="loader">
+				<img src="spinner.gif" alt="">
+			</div>
+	<main>
+		<!-- GRID -->
+		<section class="box shadow clearfix">
+			<header class="header">
+				<i class="icon icon-paragraph-center left"></i>
+				<h1><b>Predict</b> module to teach... </h1>
+				<p>According to the lecaturer details our model is able to predict the bet module a lecturer should teach</p>
+			</header>
+			<form action="" id="form" class="form-default">
+
+
+
+		
+			    
+				<!-- row -->
+			    <div class="field  g-attach-right">
+			        <label for="select1">Department</label>
+					<select name="select1" class="department" id="select1">
+						<option value=""></option>
+					    <option value="1">Computer Science</option>
+					    <option value="2">Informatics</option>
+					</select>
+				</div>
+				<!-- row -->
+			    <div class="field  g-attach-right">
+			        <label for="select1">Interest in Programming</label>
+					<select name="select1" class="prg" id="select1">
+						<option value=""></option>
+					    <option value="1">Yes</option>
+					    <option value="0">No</option>
+					</select>
+				</div>
+				
+				<div class="field  g-attach-right">
+						<label for="select1">Interest in Data Base</label>
+						<select name="select1" class="db" id="select1">
+							<option value=""></option>
+							<option value="1">Yes</option>
+							<option value="0">No</option>
+						</select>
+				</div>
+
+				<div class="field g1 g-attach-right">
+						<label for="select1">Interest in Math</label>
+						<select name="select1" class="math" id="select1">
+							<option value=""></option>
+							<option value="1">Yes</option>
+							<option value="0">No</option>
+						</select>
+				</div>
+
+				<div class="field g1 g-attach-right">
+						<label for="select1">Interest in Networks</label>
+						<select name="select1" class="ntw" id="select1">
+							<option value=""></option>
+							<option value="1">Yes</option>
+							<option value="0">No</option>
+						</select>
+				</div>
+
+				<div class="field g1 g-attach-right">
+						<label for="select1">Interest in Cyber Security</label>
+						<select name="select1" class="cs" id="select1">
+							<option value=""></option>
+							<option value="1">Yes</option>
+							<option value="0">No</option>
+						</select>
+				</div>
+
+				<div class="field g1 g-attach-right">
+						<label for="select1">Job Title</label>
+						<select name="select1" class="jt" id="select1">
+							<option value=""></option>
+							<option value="1">Senior Lecturer</option>
+							<option value="2">Junior Lecturer</option>
+							<option value="3">Lecturer</option>
+							<option value="4">Professor</option>
+						</select>
+				</div>
+
+				<!-- row -->
+				<div class="wrap">
+						<button type="submit">Predict</button>
+					  </div>
+				</div>
+			</form>
+		</section>
+		<!-- GRID -->
+
+		<section class="box shadow clearfix">
+			<h1>According to your references you should be teaching: <b id = "module"></b></h1>
+		</section>
+	</main>
+
+	<script src="request.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+	<script>
+	$(function(){
+
+		$('.field').on('focusin', 'input, select', function(event) {
+			$(this).parent().addClass('focusIn');
+		});
+
+		$('.field').on('focusout', 'input, select', function(event) {
+			if( $(this).val() == "" ){
+				$(this).parent().removeClass('focusIn');		
+			}
+		});
+
+		$.each( $('input, select') , function(index, val) {
+			if( $(this).val() != "" ){
+				$(this).parent().addClass('focusIn');		
+			}
+		});
+	});
+	</script>
+
+</body>
+</html>
